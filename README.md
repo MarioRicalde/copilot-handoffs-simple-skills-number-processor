@@ -7,3 +7,13 @@ This repository is part of a series of repositories exploring GitHub Copilot spe
 ## Simple Number Processor Flow
 
 ![alt text](plan.drawio.png)
+
+### Inputs and Outputs
+
+Using `number-converter-first` agent, provide a number: `1234` as input.
+
+This should trigger the whole flow and produce the final decorated output:
+
+| N | R | E | S |
+|-----|---|---|---|
+| 1234 | MCCXXXIV | 1️⃣2️⃣3️⃣4️⃣ | one thousand two hundred thirty four |
