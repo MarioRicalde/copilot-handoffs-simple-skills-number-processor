@@ -6,7 +6,7 @@ target: vscode
 tools: ['agent']
 handoffs:
   - label: continue-with-decoration-process
-    agent: number-converter-second
+    agent: number-converter-sed
     prompt: "You receive a number N: ${N} and Roman numeral R: ${R}."
     showContinueOn: false
     send: true

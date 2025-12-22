@@ -1,11 +1,11 @@
 ---
-name: number-converter-second
+name: number-converter-sed
 description: Adds an emoji-digit representation as E.
 argument-hint: "A number N and its Roman numeral R."
 tools: ['agent']
 handoffs:
   - label: continue-with-decoration-process
-    agent: number-converter-third
+    agent: number-converter-tri
     prompt: "You receive the original number N: ${N}, Roman numeral R: ${R}, and Emoji representation E: ${E}."
     showContinueOn: true
     send: true
