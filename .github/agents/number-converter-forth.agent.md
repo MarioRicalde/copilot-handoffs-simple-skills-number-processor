@@ -6,7 +6,7 @@ tools: ['agent']
 handoffs:
   - label: continue
     agent: number-converter-fif
-    prompt: "You receive the original number N: ${N}, Roman numeral R: ${R}, Emoji representation E: ${E} and its English sentence representation S: ${S} as a markdown table."
+    prompt: ""
     showContinueOn: true
     send: true
 ---

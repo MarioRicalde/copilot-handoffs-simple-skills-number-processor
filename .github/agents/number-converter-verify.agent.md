@@ -6,7 +6,7 @@ tools: ['agent']
 handoffs:
   - label: continue
     agent: number-converter-first
-    prompt: "You receive N: ${N}"
+    prompt: ""
     showContinueOn: true
     send: true
 ---

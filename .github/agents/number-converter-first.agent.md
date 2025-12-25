@@ -7,7 +7,7 @@ tools: ['agent']
 handoffs:
   - label: continue
     agent: number-converter-sed
-    prompt: "You receive a number N: ${N} and Roman numeral R: ${R}."
+    prompt: ""
     showContinueOn: false
     send: true
 ---

@@ -6,7 +6,7 @@ tools: ['agent']
 handoffs:
   - label: continue
     agent: number-converter-tri
-    prompt: "You receive the original number N: ${N}, Roman numeral R: ${R}, and Emoji representation E: ${E}."
+    prompt: ""
     showContinueOn: true
     send: true
 ---
