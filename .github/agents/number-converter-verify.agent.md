@@ -7,7 +7,7 @@ handoffs:
   - label: continue
     agent: number-converter-first
     prompt: ""
-    showContinueOn: true
+    showContinueOn: false
     send: true
 ---
 input: markdown table with columns <N>, <R>, <E> and <S>

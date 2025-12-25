@@ -7,7 +7,7 @@ handoffs:
   - label: continue
     agent: number-converter-fif
     prompt: ""
-    showContinueOn: true
+    showContinueOn: false
     send: true
 ---
 Write a markdown table that includes: <N>, <R>, <E> and <S>. Then <continue>.

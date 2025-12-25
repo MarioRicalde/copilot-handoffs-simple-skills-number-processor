@@ -7,7 +7,7 @@ handoffs:
   - label: continue
     agent: number-converter-tri
     prompt: ""
-    showContinueOn: true
+    showContinueOn: false
     send: true
 ---
 Convert and write the number provided <N> as an <emoji-digit> representation <E> then <continue>

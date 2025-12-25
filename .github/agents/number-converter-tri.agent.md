@@ -7,7 +7,7 @@ handoffs:
   - label: continue
     agent: number-converter-forth
     prompt: ""
-    showContinueOn: true
+    showContinueOn: false
     send: true
 ---
 Write the final English <sentence-representation> of the number <N> as <S>. Then <continue>

@@ -7,7 +7,7 @@ handoffs:
   - label: continue
     agent: number-converter-fif
     prompt: ""
-    showContinueOn: true
+    showContinueOn: false
     send: true
   - label: verify
     agent: number-converter-verify
