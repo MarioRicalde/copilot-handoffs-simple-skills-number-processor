@@ -16,6 +16,7 @@ Verify the table and ensure that the following is true:
 
 - You see a markdown table with columns <N>, <R>, <E> and <S>.
 - In the <E> column, commas are correctly placed after every emoji digit, leaving no adjacent emoji-digits: `2️⃣,2️⃣,2️⃣,2️⃣` instead of `2️⃣2️⃣2️⃣2️⃣`.
+- You output the table in markdown format without any additional text.
 
 If one or more of these conditions is not met, execute <continue> to start the process again until we succeed.
 `

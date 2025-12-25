@@ -1,6 +1,6 @@
 ---
 name: number-converter-forth
-description: Finalizes the output.
+description: Prepares table output for further processing.
 argument-hint: "A number N, its Roman numeral R, its emoji-digit representation E and its English sentence representation S."
 tools: ['agent']
 handoffs:

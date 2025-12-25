@@ -16,6 +16,7 @@ handoffs:
     send: true
 ---
 input: markdown table with columns <N>, <R>, <E> and <S>
+output: ONLY A markdown table with columns <N>, <R>, <E> and <S>
 
 <foreach emoji character in <E>>
   <if emoji character is adjacent to another emoji character and a comma can be added between them>
