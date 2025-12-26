@@ -1,8 +1,8 @@
 # README
 
-Repository containing an example of GitHub Copilot handoffs for agents. The goal of this implementation is to have a simple clean experiment to understand the inputs and outputs.
+This repository contains an example of GitHub Copilot handoffs for agents. The goal of this implementation is to have a simple, clean experiment to understand the inputs and outputs.
 
-This repository is part of a series of repositories exploring GitHub Copilot specific features. To find other repositories, [search for topic:0-awesome-copilot](https://github.com/topics/0-awesome-copilot)
+This repository is part of a series of repositories exploring GitHub Copilot-specific features. To find other repositories, [search for topic:0-awesome-copilot](https://github.com/topics/0-awesome-copilot).
 
 ## Simple Number Processor Flow
 
@@ -23,7 +23,7 @@ This should trigger the whole flow and produce the final decorated output:
 
 This implementation uses a SKILL.md file to keep the critical "Do not stop working on this issue until there are no further subagents to run." instruction.
 
-As of **12/25/2025** this feature requires a experminental flag to be enabled in your GitHub Copilot setting `chat.useAgentSkills`. And it seems to work with every model BUT the `gpt-` models.
+As of **12/25/2025**, this feature requires an experimental flag to be enabled in your GitHub Copilot settings: `chat.useAgentSkills`. It seems to work with every model except the `gpt-` models.
 
 Works well with:
 - Grok Code Fast 1
@@ -38,11 +38,11 @@ Does not work with:
 - GPT-5.1-Codex
 - GPT-5.1-Codex-Max
 
-This is not documented anywhere currently, so your mileage may vary. But you can perform a test doing the following:
+This isn't currently documented, so your mileage may vary. You can test it by doing the following:
 
-Select `agent-number-converter-first` and provide a number as input. If the agent is able to call the subagents and produce the final decorated output, then it is working. Try it with Grok Code Fast 1.
+Select `agent-number-converter-first` and provide a number as input. If the agent can call the subagents and produce the final decorated output, then it's working. Try it with Grok Code Fast 1.
 
-If you select a non-compatibnle model, the agent will just return the output of the first subagent and stop there.
+If you select a non-compatible model, the agent will just return the output of the first subagent and stop there.
 
 ## Observations
 
