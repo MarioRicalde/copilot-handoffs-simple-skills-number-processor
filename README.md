@@ -38,7 +38,11 @@ Does not work with:
 - GPT-5.1-Codex
 - GPT-5.1-Codex-Max
 
-This is not documented anywhere currently, so your mileage may vary.
+This is not documented anywhere currently, so your mileage may vary. But you can perform a test doing the following:
+
+Select `agent-number-converter-first` and provide a number as input. If the agent is able to call the subagents and produce the final decorated output, then it is working. Try it with Grok Code Fast 1.
+
+If you select a non-compatibnle model, the agent will just return the output of the first subagent and stop there.
 
 ## Observations
 
