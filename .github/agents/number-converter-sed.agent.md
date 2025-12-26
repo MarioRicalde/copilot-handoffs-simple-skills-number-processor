@@ -4,13 +4,13 @@ description: Adds an emoji-digit representation as E.
 argument-hint: "A number N and its Roman numeral R."
 tools: ['agent']
 handoffs:
-  - label: continue
+  - label: continue-always
     agent: number-converter-tri
     prompt: ""
     showContinueOn: false
     send: true
 ---
-Convert and write the number provided <N> as an <emoji-digit> representation <E> then <continue>
+Convert and write the number provided <N> as an <emoji-digit> representation <E>
 
 <emoji-digit>
 Using <N>, convert each digit:
