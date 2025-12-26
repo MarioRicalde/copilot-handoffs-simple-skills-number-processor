@@ -19,6 +19,7 @@ This should trigger the whole flow and produce the final decorated output:
 | 1234 | MCCXXXIV | 1️⃣2️⃣3️⃣4️⃣ | one thousand two hundred thirty four |
 
 ### Local Observations
+---
 
 This implementation uses a SKILL.md file to keep the critical "Do not stop working on this issue until there are no further subagents to run." instruction.
 
