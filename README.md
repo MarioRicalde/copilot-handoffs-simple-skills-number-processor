@@ -44,7 +44,9 @@ Select `agent-number-converter-first` and provide a number as input. If the agen
 
 If you select a non-compatible model, the agent will just return the output of the first subagent and stop there.
 
-## Observations
+Created an issue reporting this observation: [#285075](https://github.com/microsoft/vscode/issues/285075)
 
-Observations live in a separate repository: [MarioRicalde/copilot-observations](https://github.com/MarioRicalde/copilot-observations).
+## General Observations
+
+General observations live in a separate repository: [MarioRicalde/copilot-observations](https://github.com/MarioRicalde/copilot-observations).
 
