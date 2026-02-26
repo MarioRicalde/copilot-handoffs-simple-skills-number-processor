@@ -2,6 +2,7 @@
 name: number-converter-fif
 description: Transformative loop for the output.
 argument-hint: "A number N, its Roman numeral R, its emoji-digit representation E and its English sentence representation S."
+user-invocable: false
 tools: ['agent']
 handoffs:
   - label: continue-if-adjacent-emojis

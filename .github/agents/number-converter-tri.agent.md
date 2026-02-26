@@ -3,6 +3,7 @@ name: number-converter-tri
 description: Adds the English sentence representation as S.
 argument-hint: "A number N, its Roman numeral R, and its emoji-digit representation E."
 tools: ['agent']
+user-invocable: false
 handoffs:
   - label: continue-always
     agent: number-converter-forth

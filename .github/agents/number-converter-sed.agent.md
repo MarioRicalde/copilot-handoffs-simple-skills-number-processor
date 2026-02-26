@@ -2,6 +2,7 @@
 name: number-converter-sed
 description: Adds an emoji-digit representation as E.
 argument-hint: "A number N and its Roman numeral R."
+user-invocable: false
 tools: ['agent']
 handoffs:
   - label: continue-always
